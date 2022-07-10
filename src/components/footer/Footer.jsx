@@ -5,8 +5,8 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
-      <div className="footer-links-container">
+    <div className="footer-container gradient-container">
+      <div className="footer-links-container gradient">
         <div>
           <Link to="/" className="footer__links-item">
             Home

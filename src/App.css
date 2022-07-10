@@ -1,3 +1,26 @@
+.gradient-container {
+  /* max-width: 250px; */
+  /* padding: 2px; */
+  position: relative;
+  z-index: 1;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  filter: brightness(120%);
+}
+
+.gradient {
+  padding: 30px;
+  color: white;
+  font-size: 35px;
+  font-family: arial;
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }

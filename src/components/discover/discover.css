@@ -1,47 +1,5 @@
 /* use transform: scale(0.7); to make artwork pop ... it wil look less messy  */
 
-.gradient-container {
-  /* max-width: 250px; */
-  /* padding: 2px; */
-  position: relative;
-  z-index: 1;
-  background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-  margin-right: 25px;
-  filter: brightness(120%);
-}
-
-.container:before {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  width: 230px;
-  height: 230px;
-  left: 10px;
-  top: 0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  );
-  filter: blur(20px);
-}
-
-.gradient {
-  background-color: #0b090a;
-  padding: 30px;
-  color: white;
-  font-size: 35px;
-  font-family: arial;
-  text-align: center;
-}
-
 .discover {
   /* add section margin  */
   /* margin: 3vh 0;  */
@@ -55,7 +13,10 @@
 }
 .discover-left {
   border: 3px solid red;
+  background: rgba(0, 0, 0, 0.5);
 
+  /* color: rgb(0, 223, 149); */
+  color: white;
   display: flex;
   flex-direction: column;
   /* max-width: 40vw; */
@@ -68,13 +29,11 @@
   /* position: relative; */
 }
 .discover-left h1 {
-  color: rgb(0, 223, 149);
   font-size: 3rem;
   line-height: 3.5rem;
 }
 .discover-left p {
   padding-top: 2vh 0;
-  color: rgb(121, 175, 157);
   line-height: 1.7rem;
   font-size: 1.2rem;
   z-index: 2;

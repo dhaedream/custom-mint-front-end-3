@@ -7,9 +7,7 @@ const Discover = () => {
     <div className="discover gradient-container">
       <div className="discover-left gradient">
         <div className="discover-left-top">
-          <h1 className="discover-header">
-            The Coolest NFT sidekicks are here!
-          </h1>
+          <h1 className="discover-header">The Coolest NFT sidekicks!</h1>
         </div>
         <div className="discover-left-bottom">
           <p>
