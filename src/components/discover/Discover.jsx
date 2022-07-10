@@ -4,8 +4,8 @@ import alienPet from "../../assets/alien-pet-art.png";
 
 const Discover = () => {
   return (
-    <div className="discover">
-      <div className="discover-left">
+    <div className="discover gradient-container">
+      <div className="discover-left gradient">
         <div className="discover-left-top">
           <h1 className="discover-header">
             The Coolest NFT sidekicks are here!

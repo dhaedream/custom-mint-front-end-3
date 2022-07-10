@@ -1,3 +1,45 @@
+.gradient-container {
+  /* max-width: 250px; */
+  /* padding: 2px; */
+  position: relative;
+  z-index: 1;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  margin-right: 25px;
+  filter: brightness(120%);
+}
+
+.container:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  width: 230px;
+  height: 230px;
+  left: 10px;
+  top: 0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  filter: blur(20px);
+}
+
+.gradient {
+  background-color: #0b090a;
+  padding: 30px;
+  color: white;
+  font-size: 35px;
+  font-family: arial;
+  text-align: center;
+}
+
 .discover {
   /* add section margin  */
   /* margin: 3vh 0;  */
@@ -48,7 +90,7 @@
   padding-right: 3vw;
   position: absolute;
   /* 15vh looks nice to "float" down  */
-  top: 15vh;
+  top: 0vh;
   right: 0;
 }
 .discover-art {
@@ -82,7 +124,7 @@
 
 @media screen and (max-width: 1200px) {
   .discover {
-    height: 65vh;
+    height: 50vh;
   }
   .discover-left {
     border: 3px solid white;
@@ -91,7 +133,6 @@
     /* height: 90vh; */
     height: 50vw;
     width: auto;
-
     /* height: 84vw; */
   }
   .discover-right {
@@ -99,7 +140,7 @@
 
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 25vh;
+    /* top: 25vh; */
     right: 0;
   }
 }
@@ -111,13 +152,14 @@
 
     margin: 1vh 0 3vh 0;
     display: flex;
-    justify-content: space-between;
-    height: 85vh;
+    justify-content: center;
+    height: 75vh;
     padding: 5vh 0;
     border: 3px so;
   }
   .discover-left {
     border: 3px solid red;
+    border-radius: 50px;
 
     width: 80vw;
     padding: 0 2vw;
@@ -139,13 +181,13 @@
     /* padding-bottom: 20vh; */
   }
   .discover-art {
-    max-height: 53vh;
+    max-height: 55vh;
     max-width: 100vw;
-    /* height: 30vh; */
+    height: 45vh;
   }
   .discover-right {
-    padding-right: 25%;
-    top: 35vh;
+    padding-right: 35%;
+    top: 15vh;
   }
   /* .discover-accent-card {
       bottom: 2vh;
@@ -157,17 +199,18 @@
 }
 @media (max-width: 850px) {
   .discover {
-    height: 90vh;
+    height: 84vh;
+    max-height: 90vh;
   }
   .discover-left {
     border: 3px solid orange;
   }
   .discover-right {
-    padding-right: 10vw;
-    top: 27vh;
+    padding-right: 25%;
+    top: 16vh;
   }
   .discover-art {
-    height: 58vh;
+    height: 45vh;
     width: auto;
     padding: 3rem;
   }
@@ -185,7 +228,7 @@
   }
   .discover-right {
     padding-right: 9vw;
-    top: 26vh;
+    top: 12vh;
   }
   .discover-art {
     height: 55vh;
@@ -198,20 +241,20 @@
 @media (max-width: 575.98px) {
   .discover {
     margin: 1vh 0 2vh 0;
-    height: 105vh;
+    height: 115vh;
   }
   .discover-left {
     border: 3px solid pink;
   }
   .discover-right {
-    padding-right: 0;
+    padding-right: 10%;
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 28vh;
+    top: 15vh;
     right: 0;
   }
   .discover-art {
-    height: 75vh;
+    height: 38vh;
     width: auto;
   }
   .discover-left-bottom p {

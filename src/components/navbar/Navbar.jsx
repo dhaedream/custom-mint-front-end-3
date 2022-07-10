@@ -16,7 +16,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <Link to="/mint" className="navbar__links-item">
+          <Link to="google.com" className="navbar__links-item">
             Mint
           </Link>
         </div>
