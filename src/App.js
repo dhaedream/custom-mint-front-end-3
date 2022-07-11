@@ -11,6 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/mint" element={<MintPage />} />
+
       <Route path="/community" element={<CommunityPage />} />
     </Routes>
   );
