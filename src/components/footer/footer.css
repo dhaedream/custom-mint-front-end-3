@@ -2,6 +2,7 @@
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
   padding: 1vh 0.5vw;
+  z-index: -2;
 }
 .footer-links-container {
   display: flex;
