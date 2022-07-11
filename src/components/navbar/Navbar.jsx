@@ -16,7 +16,8 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <Link to="google.com" className="navbar__links-item">
+          <Link to="/mint" className="navbar__links-item">
+            {/* <Link to={{ pathname: "https://www.deployedcanvas3dmodel.com" }} target="_blank" /> */}
             Mint
           </Link>
         </div>
