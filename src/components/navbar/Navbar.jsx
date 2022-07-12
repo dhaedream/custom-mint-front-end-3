@@ -16,10 +16,22 @@ const Navbar = () => {
           </Link>
         </div>
         <div>
-          <Link to="/mint" className="navbar__links-item">
-            {/* <Link to={{ pathname: "https://www.deployedcanvas3dmodel.com" }} target="_blank" /> */}
+          {/* <Link
+            to={{ pathname: "https://custom-mint-front-end-2.vercel.app/" }}
+            className="navbar__links-item"
+          > */}
+          {/* <Link
+              to={{ pathname: "https://custom-mint-front-end-2.vercel.app/" }}
+              target="mint"
+            /> */}
+          <a
+            className="navbar__links-item"
+            href="https://custom-mint-front-end-2.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Mint
-          </Link>
+          </a>
         </div>
         <div>
           <Link to="/community" className="navbar__links-item">
