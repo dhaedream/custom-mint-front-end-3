@@ -1,0 +1,30 @@
+.comm {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 0 2vw;
+  border: 3px solid rgb(67, 67, 67);
+  border-radius: 25px;
+}
+.comm-left {
+  width: 50vw;
+}
+.comm-art {
+  width: 100%;
+}
+.comm-right {
+  width: 50vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.comm-card {
+  border: 3px solid rgb(67, 67, 67);
+  border-radius: 25px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.comm-para {
+  font-size: 1.8rem;
+  margin: 1em;
+}
