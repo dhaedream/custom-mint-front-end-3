@@ -6,7 +6,9 @@
   margin: 3vh 0 5vh 0;
   display: flex;
   justify-content: space-between;
+  /* align-items: */
   height: 50vh;
+  /* max-width: 1550px; */
   padding: 5vh 0;
   /* border: 3px solid rgb(67, 67, 67); */
   border: 3px solid #636e72;
@@ -74,12 +76,12 @@
   position: absolute;
   bottom: 6vh;
   right: 5vw;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.69);
   border: 3px solid rgb(67, 67, 67);
   border-radius: 25px;
   padding: 1vh 6vw;
   text-align: right;
-  color: white;
+  color: black;
   font-weight: 800;
 }
 @media screen and (max-width: 1450px) {
@@ -93,23 +95,23 @@
 
 @media screen and (max-width: 1200px) {
   .discover {
-    height: 60vh;
+    height: 82vh;
   }
   .discover-left {
     border: 3px solid white;
   }
+  .discover-left-bottom p {
+    font-size: 1.2rem;
+  }
   .discover-art {
-    /* height: 90vh; */
     height: 50vw;
     width: auto;
-    /* height: 84vw; */
   }
   .discover-right {
     padding-left: -1vw;
-
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 15%;
+    top: 10%;
     right: 0;
   }
 }
@@ -167,8 +169,7 @@
 }
 @media (max-width: 850px) {
   .discover {
-    height: 84vh;
-    max-height: 90vh;
+    height: 88vh;
   }
   .discover-left {
     border: 3px solid orange;
@@ -181,6 +182,9 @@
     height: 45vh;
     width: auto;
     padding: 3rem;
+  }
+  .discover-accent-card {
+    display: none;
   }
 }
 
@@ -226,7 +230,7 @@
     width: auto;
   }
   .discover-left-bottom p {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .discover-left-top h1 {
     font-size: 2rem;
@@ -236,10 +240,12 @@
   .discover {
     margin: 0.7rem;
     height: 120vh;
+    max-height: 900px;
   }
   .discover-left {
     border: 3px solid green;
   }
+
   .discover-art {
     /* min-height: 440px; */
     /* max-height: 44vh; */
@@ -251,8 +257,8 @@
     padding-right: 0;
     position: absolute;
     /* 15vh looks nice to "float" down  */
-    top: 16vh;
-    right: -5%;
+    top: 20vh;
+    right: -10%;
     /* left: 0; */
   }
 }
