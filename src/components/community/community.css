@@ -28,3 +28,28 @@
   font-size: 1.8rem;
   margin: 1em;
 }
+/* medium screen */
+@media screen and (max-width: 992px) {
+  .comm {
+    display: flex;
+    height: 110vh;
+    width: 100vw;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding: 2vh 0;
+  }
+  .comm-left {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start; */
+  }
+  .comm-art {
+    width: 80%;
+    transform: scale(1.05);
+  }
+  .comm-right {
+    width: 100vw;
+    display: flex;
+  }
+}

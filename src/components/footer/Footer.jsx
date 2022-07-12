@@ -13,9 +13,14 @@ const Footer = () => {
           </Link>
         </div>
         <div>
-          <Link to="/mint" className="footer__links-item">
+          <a
+            className="navbar__links-item"
+            href="https://custom-mint-front-end-2.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Mint
-          </Link>
+          </a>
         </div>
         <div>
           <Link to="/community" className="footer__links-item">
