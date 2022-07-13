@@ -21,10 +21,10 @@ const Discover = () => {
       <div className="discover-right">
         <img src={alienPet} alt="alien-pet" className="discover-art" />
         <div className="discover-accent-card-container">
-          <div className="discover-accent-card">
+          {/* <div className="discover-accent-card">
             <span className="discover-accent-span">Meta in Style</span>
             <p>Ai Powered Sidekicks</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
